@@ -105,14 +105,21 @@ public:
 
     void DisplayHelpList(void) const
     {
-        std::cout << "  Welcome to Clock Program v0.0.1."       << "\n"
-                  << "|---------------Help---------------|"     << "\n"
-                  << "|Press \"s\" To Set Time.            |"   << "\n"
-                  << "|Press \"r\" To Reset Clock.         |"   << "\n"
-                  << "|Press \"1\" For Am/Pm Format.       |"   << "\n"
-                  << "|Press \"2\" For 24 Hour Format.     |"   << "\n"
-                  << "|Press \"e\" To Exit.                |"   << "\n"
-                  << "*---------------End.---------------*"     << std::endl;
+        std::cout << "  Welcome to Clock Program v0.0.1."
+                  << "\n"
+                  << "|---------------Help---------------|"
+                  << "\n"
+                  << "|Press \"s\" To Set Time.            |"
+                  << "\n"
+                  << "|Press \"r\" To Reset Clock.         |"
+                  << "\n"
+                  << "|Press \"1\" For Am/Pm Format.       |"
+                  << "\n"
+                  << "|Press \"2\" For 24 Hour Format.     |"
+                  << "\n"
+                  << "|Press \"e\" To Exit.                |"
+                  << "\n"
+                  << "*---------------End.---------------*" << std::endl;
     }
 
     void Print(void) const
